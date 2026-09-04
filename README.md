@@ -276,9 +276,16 @@ Treat Section D as the current decision contract. Use Section C to map IDs to th
 
 Not necessarily. If the repository fingerprint is unchanged, the skill should skip the deep scan and avoid duplicate questions. Check Section A’s fingerprint and scan counters. If you expected a new group, verify that the previous group’s threshold and dependency conditions have actually been met.
 
+## Contributing
+
+Ideas and feedback are welcome in [GitHub Discussions](../../discussions). Bug reports (behavior
+that contradicts `SKILL.md`) go in [Issues](../../issues). See `CONTRIBUTING.md` before opening a
+pull request that changes behavior.
+
 ## Files in this repository
 
 - `SKILL.md` — the Claude Code workflow and non-negotiable rules.
 - `README.md` — this beginner-friendly guide.
 - `templates/DESIGN-QUESTIONS.md` — an optional empty state-file skeleton.
+- `CONTRIBUTING.md` — how to share ideas, report bugs, or propose changes.
 - `LICENSE` — MIT license.
